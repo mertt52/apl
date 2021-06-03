@@ -60,7 +60,7 @@ $marks = array(
 "mavi"=>$mavi,
 "followers"=>$tt,);
   json_encode($marks,JSON_UNESCAPED_SLASHES );
-echo $yazi
-?>
 
+?>
+<?php echo $yazi; ?>
    
