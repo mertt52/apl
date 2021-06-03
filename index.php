@@ -59,8 +59,8 @@ $marks = array(
 "pp"=>$ppy,
 "mavi"=>$mavi,
 "followers"=>$tt,);
-  json_encode($marks,JSON_UNESCAPED_SLASHES );
+ echo json_encode($marks,JSON_UNESCAPED_SLASHES );
 
 ?>
-<?php echo $yazi; ?>
+
    
