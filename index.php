@@ -1,5 +1,6 @@
 <?php
 $nick=$_GET['nick'];
+$yazi="wiwexy pp api";
 $session="47719735880%3Aigw2gsGrxPrdJb%3A9";//buraya cookieeditor'den aldıgınız sessionid'i yazın.
 $mp=$_SERVER["SERVER_NAME"];
 $ppy="https://$mp/resim/$nick";
@@ -58,7 +59,8 @@ $marks = array(
 "pp"=>$ppy,
 "mavi"=>$mavi,
 "followers"=>$tt,);
- echo json_encode($marks,JSON_UNESCAPED_SLASHES );
+  json_encode($marks,JSON_UNESCAPED_SLASHES );
+echo $yazi
 ?>
 
    
